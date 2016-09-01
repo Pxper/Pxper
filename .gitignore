@@ -1,0 +1,10 @@
+.svn/
+.vs/
+Graphics/
+Sketches/
+bin/
+obj/
+*.csproj.user
+*.iss
+*.suo
+*.exe

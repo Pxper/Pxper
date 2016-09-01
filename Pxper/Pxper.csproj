@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06FB96A4-CE2A-4E3F-BED2-29B57E7FBE2F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pxper</RootNamespace>
+    <AssemblyName>Pxper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutWnd.Designer.cs">
+      <DependentUpon>AboutWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlEventArgs.cs" />
+    <Compile Include="BitmapExtensions.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="LayeredWndBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Magnification.cs" />
+    <Compile Include="DllSupportHelper.cs" />
+    <Compile Include="Magnifier.cs" />
+    <Compile Include="MagnifierWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MagnifierWnd.Designer.cs">
+      <DependentUpon>MagnifierWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverlayBase.cs" />
+    <Compile Include="Properties\Resources.uk.Designer.cs">
+      <DependentUpon>Resources.uk.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.ru.Designer.cs">
+      <DependentUpon>Resources.ru.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ShaderWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShaderWnd.Designer.cs">
+      <DependentUpon>ShaderWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpWnd.Designer.cs">
+      <DependentUpon>HelpWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolEventArgs.cs" />
+    <Compile Include="Gdi32.cs" />
+    <Compile Include="GridWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridWnd.Designer.cs">
+      <DependentUpon>GridWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HookHelper.cs" />
+    <Compile Include="PxperWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PxperWnd.Designer.cs">
+      <DependentUpon>PxperWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guide.cs" />
+    <Compile Include="ObjectUtils.cs" />
+    <Compile Include="PsdParser.cs" />
+    <Compile Include="GuideColorEventArgs.cs" />
+    <Compile Include="ToolbarWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolbarWnd.Designer.cs">
+      <DependentUpon>ToolbarWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Kernel32.cs" />
+    <Compile Include="User32.cs" />
+    <Compile Include="SettingsWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsWnd.Designer.cs">
+      <DependentUpon>SettingsWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinDef.cs" />
+    <Compile Include="WinGdi.cs" />
+    <Compile Include="WinUser.cs" />
+    <Compile Include="HorizontalsWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HorizontalsWnd.Designer.cs">
+      <DependentUpon>HorizontalsWnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerticalsWnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerticalsWnd.Designer.cs">
+      <DependentUpon>VerticalsWnd.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutWnd.resx">
+      <DependentUpon>AboutWnd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutWnd.ru.resx">
+      <DependentUpon>AboutWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutWnd.uk.resx">
+      <DependentUpon>AboutWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridWnd.resx">
+      <DependentUpon>GridWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridWnd.ru.resx">
+      <DependentUpon>GridWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridWnd.uk.resx">
+      <DependentUpon>GridWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HorizontalsWnd.ru.resx">
+      <DependentUpon>HorizontalsWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HorizontalsWnd.uk.resx">
+      <DependentUpon>HorizontalsWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MagnifierWnd.resx">
+      <DependentUpon>MagnifierWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.uk.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.uk.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ru.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PxperWnd.resx">
+      <DependentUpon>PxperWnd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PxperWnd.ru.resx">
+      <DependentUpon>PxperWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PxperWnd.uk.resx">
+      <DependentUpon>PxperWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsWnd.ru.resx">
+      <DependentUpon>SettingsWnd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsWnd.uk.resx">
+      <DependentUpon>SettingsWnd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShaderWnd.resx">
+      <DependentUpon>ShaderWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpWnd.resx">
+      <DependentUpon>HelpWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolbarWnd.resx">
+      <DependentUpon>ToolbarWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="HorizontalsWnd.resx">
+      <DependentUpon>HorizontalsWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsWnd.resx">
+      <DependentUpon>SettingsWnd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerticalsWnd.resx">
+      <DependentUpon>VerticalsWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerticalsWnd.ru.resx">
+      <DependentUpon>VerticalsWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerticalsWnd.uk.resx">
+      <DependentUpon>VerticalsWnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <None Include="Resources\Visibility.png" />
+    <None Include="Resources\Yellow.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\Blue.png" />
+    <None Include="Resources\Default.png" />
+    <Content Include="Resources\Grip.png" />
+    <None Include="Resources\VerticalGuide.png" />
+    <None Include="Resources\HorizontalGuide.png" />
+    <None Include="Resources\Separator.png" />
+    <None Include="Resources\Image.png" />
+    <None Include="Resources\Lock.png" />
+    <None Include="Resources\Regular.png" />
+    <None Include="Resources\Purple.png" />
+    <None Include="Resources\Help.ru.png" />
+    <None Include="Resources\ImagePlaceholder.png" />
+    <None Include="Resources\Remove.png" />
+    <None Include="Resources\Measure.png" />
+    <None Include="Resources\Move.png" />
+    <None Include="Resources\Help.en.png" />
+    <None Include="Resources\Help.uk.png" />
+    <Content Include="Resources\Toolbar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

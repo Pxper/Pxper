@@ -1,0 +1,1194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;tbMagnificationFactor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparencyMax.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lMagnifyingGlassWidthMax.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bOk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparency.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lRefreshRateMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 29</value>
+  </data>
+  <data name="&gt;&gt;tbActiveWindowTitlePart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbShowAbsRulers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeightMin.Name" xml:space="preserve">
+    <value>lMagnifyingGlassHeightMin</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbImagesTransparency.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lExample.Name" xml:space="preserve">
+    <value>lExample</value>
+  </data>
+  <data name="chbShowRelRulers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 164</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMin.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chbShowRelRulers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 17</value>
+  </data>
+  <data name="lMagnificationFactorMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbImagesTransparency.Name" xml:space="preserve">
+    <value>tbImagesTransparency</value>
+  </data>
+  <data name="tbMagnifyingGlassWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 48</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidth.Name" xml:space="preserve">
+    <value>lMagnifyingGlassWidth</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparency.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="tpGeneral.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lMagnificationFactorMin.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;bCancel.Name" xml:space="preserve">
+    <value>bCancel</value>
+  </data>
+  <data name="&gt;&gt;bOk.Name" xml:space="preserve">
+    <value>bOk</value>
+  </data>
+  <data name="tpMagnification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 260</value>
+  </data>
+  <data name="&gt;&gt;tbRefreshRate.Parent" xml:space="preserve">
+    <value>tpPerformance</value>
+  </data>
+  <data name="&gt;&gt;chbShowRelRulers.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="lExample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lMagnificationFactor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 160</value>
+  </data>
+  <data name="&gt;&gt;tbMagnifyingGlassWidth.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactorMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbShowMagnifyingGlass.Name" xml:space="preserve">
+    <value>chbShowMagnifyingGlass</value>
+  </data>
+  <data name="bCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 74</value>
+  </data>
+  <data name="&gt;&gt;tbActiveWindowTitlePart.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="bCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="tbMagnificationFactor.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;tbMagnifyingGlassWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chbShowRelRulers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbImagesTransparency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 90</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeightMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lGuidesTransparencyMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactorMax.Name" xml:space="preserve">
+    <value>lMagnificationFactorMax</value>
+  </data>
+  <data name="tbGuidesTransparency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbShowMagnifyingGlass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 17</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 51</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMin.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="tbRefreshRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 26</value>
+  </data>
+  <data name="lGuidesTransparencyMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 29</value>
+  </data>
+  <data name="lGuidesTransparency.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tpGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="lImagesTransparencyMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lMagnificationFactorMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="lRefreshRateMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lImagesTransparency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chbShowMagnifyingGlass.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="lImagesTransparency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="&gt;&gt;tbRefreshRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidthMin.Name" xml:space="preserve">
+    <value>lMagnifyingGlassWidthMin</value>
+  </data>
+  <data name="lMagnificationFactorMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactorMax.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="&gt;&gt;tbMagnifyingGlassWidth.Name" xml:space="preserve">
+    <value>tbMagnifyingGlassWidth</value>
+  </data>
+  <data name="tbMagnifyingGlassHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 45</value>
+  </data>
+  <data name="&gt;&gt;tpGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactorMin.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparencyMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbShowMagnifyingGlass.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidthMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpMagnification.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lMagnifyingGlassHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparencyMax.Name" xml:space="preserve">
+    <value>lGuidesTransparencyMax</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lGuidesTransparencyMax.Text" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="chbHideOverlaysIfActiveWindowTitleContains.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 17</value>
+  </data>
+  <data name="lImagesTransparencyMin.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lMagnifyingGlassWidth.Text" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="bOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lMagnificationFactorMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lExample.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparencyMin.Name" xml:space="preserve">
+    <value>lImagesTransparencyMin</value>
+  </data>
+  <data name="lImagesTransparencyMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 93</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbShowMagnifyingGlass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tpPerformance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lImagesTransparency.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lGuidesTransparencyMin.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lMagnificationFactorMin.Text" xml:space="preserve">
+    <value>×2</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRateMin.Name" xml:space="preserve">
+    <value>lRefreshRateMin</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lRefreshRateMin.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbMagnifyingGlassHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lGuidesTransparency.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chbHideOverlaysIfActiveWindowTitleContains.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactor.Name" xml:space="preserve">
+    <value>lMagnificationFactor</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lRefreshRateMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 29</value>
+  </data>
+  <data name="lMagnificationFactor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;bCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactor.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparencyMin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpMagnification.Text" xml:space="preserve">
+    <value>Magnification</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparencyMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbRefreshRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tpPerformance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chbShowAbsRulers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbHideOverlaysIfActiveWindowTitleContains.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 186</value>
+  </data>
+  <data name="&gt;&gt;tbActiveWindowTitlePart.Name" xml:space="preserve">
+    <value>tbActiveWindowTitlePart</value>
+  </data>
+  <data name="tbGuidesTransparency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 45</value>
+  </data>
+  <data name="tbMagnifyingGlassHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 112</value>
+  </data>
+  <data name="lMagnifyingGlassHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRate.Parent" xml:space="preserve">
+    <value>tpPerformance</value>
+  </data>
+  <data name="&gt;&gt;bOk.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="bCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 304</value>
+  </data>
+  <data name="bOk.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidthMin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lGuidesTransparencyMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chbHideOverlaysIfActiveWindowTitleContains.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lGuidesTransparencyMax.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lMagnifyingGlassWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lImagesTransparencyMin.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="tbActiveWindowTitlePart.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lMagnifyingGlassHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lMagnificationFactor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tc.Name" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="tpMagnification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="lRefreshRateMax.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactorMin.Name" xml:space="preserve">
+    <value>lMagnificationFactorMin</value>
+  </data>
+  <data name="lGuidesTransparencyMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 29</value>
+  </data>
+  <data name="lImagesTransparencyMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="&gt;&gt;bCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 304</value>
+  </data>
+  <data name="lImagesTransparencyMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 93</value>
+  </data>
+  <data name="lGuidesTransparency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="tpGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidthMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbRefreshRate.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="lGuidesTransparencyMin.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="lGuidesTransparencyMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 13</value>
+  </data>
+  <data name="lImagesTransparencyMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="lExample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactorMax.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeight.Name" xml:space="preserve">
+    <value>lMagnifyingGlassHeight</value>
+  </data>
+  <data name="tc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>25 is default: smooth animation but maximum load of the CPU</value>
+  </data>
+  <data name="&gt;&gt;tbRefreshRate.Name" xml:space="preserve">
+    <value>tbRefreshRate</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeightMin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMax.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lMagnifyingGlassHeight.Text" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparency.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidthMin.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="&gt;&gt;tbMagnifyingGlassHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMagnifyingGlassHeight.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparencyMin.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="tbMagnifyingGlassHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lGuidesTransparencyMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactorMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbActiveWindowTitlePart.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparencyMax.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="tbMagnifyingGlassWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparencyMin.Name" xml:space="preserve">
+    <value>lGuidesTransparencyMin</value>
+  </data>
+  <data name="lMagnificationFactorMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lMagnificationFactorMax.Text" xml:space="preserve">
+    <value>×6</value>
+  </data>
+  <data name="lRefreshRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 13</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeight.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;bOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbMagnificationFactor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 176</value>
+  </data>
+  <data name="lMagnificationFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="&gt;&gt;chbShowRelRulers.Name" xml:space="preserve">
+    <value>chbShowRelRulers</value>
+  </data>
+  <data name="&gt;&gt;tpGeneral.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;tpMagnification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbMagnifyingGlassWidth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparency.Name" xml:space="preserve">
+    <value>lGuidesTransparency</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeightMax.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tpPerformance.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 286</value>
+  </data>
+  <data name="tbMagnifyingGlassWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 45</value>
+  </data>
+  <data name="&gt;&gt;tbGuidesTransparency.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="tpMagnification.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbRefreshRate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lExample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 232</value>
+  </data>
+  <data name="&gt;&gt;chbShowMagnifyingGlass.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lImagesTransparencyMax.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tbGuidesTransparency.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lRefreshRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="lRefreshRateMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lImagesTransparency.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRateMax.Name" xml:space="preserve">
+    <value>lRefreshRateMax</value>
+  </data>
+  <data name="chbShowAbsRulers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 142</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lMagnifyingGlassHeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lMagnifyingGlassWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 32</value>
+  </data>
+  <data name="&gt;&gt;tbMagnificationFactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tpGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 260</value>
+  </data>
+  <data name="chbShowRelRulers.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparencyMax.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chbHideOverlaysIfActiveWindowTitleContains.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chbHideOverlaysIfActiveWindowTitleContains.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lMagnificationFactorMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 179</value>
+  </data>
+  <data name="lGuidesTransparencyMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lRefreshRateMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 115</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparencyMax.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chbHideOverlaysIfActiveWindowTitleContains.Name" xml:space="preserve">
+    <value>chbHideOverlaysIfActiveWindowTitleContains</value>
+  </data>
+  <data name="lMagnificationFactorMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 179</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 13</value>
+  </data>
+  <data name="&gt;&gt;chbShowAbsRulers.Name" xml:space="preserve">
+    <value>chbShowAbsRulers</value>
+  </data>
+  <data name="lImagesTransparency.Text" xml:space="preserve">
+    <value>Images transparency:</value>
+  </data>
+  <data name="tbImagesTransparency.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lRefreshRateMax.Text" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparency.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="&gt;&gt;tpMagnification.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="&gt;&gt;lExample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsWnd</value>
+  </data>
+  <data name="lMagnifyingGlassHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 96</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactorMin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chbShowAbsRulers.Text" xml:space="preserve">
+    <value>Show distance between guide and screen edges</value>
+  </data>
+  <data name="tpMagnification.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;tbMagnifyingGlassHeight.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="bCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRateMin.Parent" xml:space="preserve">
+    <value>tpPerformance</value>
+  </data>
+  <data name="&gt;&gt;lExample.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMin.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="tpGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidthMax.Name" xml:space="preserve">
+    <value>lMagnifyingGlassWidthMax</value>
+  </data>
+  <data name="lExample.Text" xml:space="preserve">
+    <value>For example, Microsoft Visual Studio</value>
+  </data>
+  <data name="&gt;&gt;chbShowRelRulers.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tpPerformance.Parent" xml:space="preserve">
+    <value>tc</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRateMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpPerformance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbImagesTransparency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lExample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 13</value>
+  </data>
+  <data name="lImagesTransparencyMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbGuidesTransparency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lRefreshRate.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeightMax.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="lImagesTransparencyMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeight.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="lGuidesTransparencyMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tbMagnificationFactor.Name" xml:space="preserve">
+    <value>tbMagnificationFactor</value>
+  </data>
+  <data name="chbShowMagnifyingGlass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lGuidesTransparency.Text" xml:space="preserve">
+    <value>Guides transparency:</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidth.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tpMagnification.Name" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="&gt;&gt;tpPerformance.Name" xml:space="preserve">
+    <value>tpPerformance</value>
+  </data>
+  <data name="lGuidesTransparency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tpPerformance.Text" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRateMax.Parent" xml:space="preserve">
+    <value>tpPerformance</value>
+  </data>
+  <data name="tbActiveWindowTitlePart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 208</value>
+  </data>
+  <data name="lRefreshRate.Text" xml:space="preserve">
+    <value>Refresh rate (frames per second):</value>
+  </data>
+  <data name="&gt;&gt;bCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lMagnificationFactor.Text" xml:space="preserve">
+    <value>Magnification factor:</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRateMin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbMagnificationFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 45</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 51</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMax.Text" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="&gt;&gt;tbMagnifyingGlassWidth.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="lMagnifyingGlassWidthMax.Text" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMin.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeightMin.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="&gt;&gt;chbShowRelRulers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeightMax.Name" xml:space="preserve">
+    <value>lMagnifyingGlassHeightMax</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparencyMin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lRefreshRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparencyMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lGuidesTransparency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="chbShowAbsRulers.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="chbHideOverlaysIfActiveWindowTitleContains.Text" xml:space="preserve">
+    <value>Hide overlays if active window title contains:</value>
+  </data>
+  <data name="lRefreshRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lMagnificationFactor.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRate.Name" xml:space="preserve">
+    <value>lRefreshRate</value>
+  </data>
+  <data name="lRefreshRateMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lMagnificationFactorMax.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lRefreshRateMin.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="chbShowRelRulers.Text" xml:space="preserve">
+    <value>Show distance between guide and nearest guides</value>
+  </data>
+  <data name="tpPerformance.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="chbShowMagnifyingGlass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="tbRefreshRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 45</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tpPerformance</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidthMax.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbGuidesTransparency.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparency.Name" xml:space="preserve">
+    <value>lImagesTransparency</value>
+  </data>
+  <data name="lImagesTransparency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 74</value>
+  </data>
+  <data name="tbImagesTransparency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 45</value>
+  </data>
+  <data name="tc.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbShowAbsRulers.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRateMax.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpPerformance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 260</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>494, 337</value>
+  </data>
+  <data name="&gt;&gt;lRefreshRateMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidth.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="&gt;&gt;tbMagnificationFactor.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="lRefreshRateMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;chbShowAbsRulers.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tpGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;tc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparencyMin.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassHeightMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbGuidesTransparency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 26</value>
+  </data>
+  <data name="&gt;&gt;bOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lMagnificationFactorMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="lMagnifyingGlassWidth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 115</value>
+  </data>
+  <data name="chbShowMagnifyingGlass.Text" xml:space="preserve">
+    <value>Show magnifying glass while adding or moving the guides</value>
+  </data>
+  <data name="chbShowAbsRulers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 17</value>
+  </data>
+  <data name="chbHideOverlaysIfActiveWindowTitleContains.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="chbShowRelRulers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lMagnifyingGlassWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbImagesTransparency.Parent" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="chbHideOverlaysIfActiveWindowTitleContains.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lMagnifyingGlassWidthMax.Parent" xml:space="preserve">
+    <value>tpMagnification</value>
+  </data>
+  <data name="lMagnifyingGlassHeightMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="bOk.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;lExample.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lMagnificationFactor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lImagesTransparencyMax.Text" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="tbActiveWindowTitlePart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 21</value>
+  </data>
+  <data name="&gt;&gt;tc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbMagnifyingGlassHeight.Name" xml:space="preserve">
+    <value>tbMagnifyingGlassHeight</value>
+  </data>
+  <data name="&gt;&gt;tpGeneral.Name" xml:space="preserve">
+    <value>tpGeneral</value>
+  </data>
+  <data name="lMagnifyingGlassWidth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbShowAbsRulers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbMagnificationFactor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lRefreshRateMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lImagesTransparencyMin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbImagesTransparency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lGuidesTransparencyMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lImagesTransparencyMax.Name" xml:space="preserve">
+    <value>lImagesTransparencyMax</value>
+  </data>
+  <data name="&gt;&gt;tbGuidesTransparency.Name" xml:space="preserve">
+    <value>tbGuidesTransparency</value>
+  </data>
+  <data name="&gt;&gt;chbShowMagnifyingGlass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru</value>
+  </metadata>
+</root>
