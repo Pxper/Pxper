@@ -291,8 +291,8 @@ namespace Pxper
 
     private void hookManager_MouseMove(object sender, MouseEventArgs e)
     {
-      this.mouseX = e.X;
-      this.mouseY = e.Y;
+      this.mouseX = (int)(e.X / DisplayScale.Value);
+      this.mouseY = (int)(e.Y / DisplayScale.Value);
 
       if (this.activeControl == Control.Grip && this.mouseButtonPressed)
       {

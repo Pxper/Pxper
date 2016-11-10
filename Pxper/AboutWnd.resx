@@ -156,7 +156,7 @@
     <value>2</value>
   </data>
   <data name="lProgramName.Text" xml:space="preserve">
-    <value>Pxper 1.0.0.0</value>
+    <value>Pxper 1.1.0.0</value>
   </data>
   <data name="&gt;&gt;lProgramName.Name" xml:space="preserve">
     <value>lProgramName</value>
@@ -386,9 +386,9 @@
   <data name="&gt;&gt;llProgramWebsite.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>

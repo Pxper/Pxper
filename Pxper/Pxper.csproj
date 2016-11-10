@@ -58,6 +58,7 @@
     <Compile Include="ControlEventArgs.cs" />
     <Compile Include="BitmapExtensions.cs" />
     <Compile Include="Image.cs" />
+    <Compile Include="DisplayScale.cs" />
     <Compile Include="LayeredWndBase.cs">
       <SubType>Form</SubType>
     </Compile>

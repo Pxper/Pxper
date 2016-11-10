@@ -6,6 +6,12 @@ using System.Runtime.InteropServices;
 
 namespace Pxper
 {
+  public enum DeviceCap
+  {
+    VERTRES = 10,
+    DESKTOPVERTRES = 117
+  }
+
   public class Gdi32
 	{
 		[DllImport("Gdi32.dll")]
@@ -19,5 +25,8 @@ namespace Pxper
 
 		[DllImport("Gdi32.dll")]
 		public static extern bool DeleteObject(IntPtr hObject);
-	}
+
+    [DllImport("Gdi32.dll")]
+    public static extern int GetDeviceCaps(IntPtr hDC, int nIndex);
+  }
 }
